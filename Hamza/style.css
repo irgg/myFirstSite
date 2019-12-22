@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+form{
+	float: right;
+}
+.log{
+	height: 25px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border: none;
+}
+#ot{
+	background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #437f90;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+}
+.creat-account{
+	position: absolute;
+	right: 0;
+	top: 100px;
+    background: rgba(0, 0, 0, 0.0);
+    color: #f1f1f1;
+    padding: 0px;
+}
+.creat-account h2{
+	font-family: Sans-serif;
+	font-size: 40px;
+	margin-top: 25px;
+}
+.creat-account p{
+	font-family: Sans-serif;
+	font-size: 20px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.acc input[type="text"]{
+	margin-bottom: 15px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 10px;
+	width: 70%;
+}
+.acc input[type="password"]{
+	width: 70%;
+	margin-bottom: 15px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 10px;
+}
+.acc p{
+	font-family: Sans-serif;
+	font-size: 13px;
+	color: #9e9e9e;
+}
+.acc input[type="submit"]{
+	padding: 15px 22px;
+	background: rgba(0, 0, 0, 0.5);
+	border: 1px solid #437f90;
+	border-radius: 5px;
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
